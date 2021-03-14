@@ -3,7 +3,7 @@ import { Container, Row, Col } from "reactstrap";
 import rightBrocli from "../../Assets/Works/rightBrocli.jpg";
 const Works = () => {
   return (
-    <div className="container-fluid mt-90">
+    <div id="works" className="container-fluid mt-90">
       <Row>
         <Col md={8} style={{ offset: 1 }}>
           <p class="mt-75 ml-50  primary-txt-color font-weight-bold f-50">

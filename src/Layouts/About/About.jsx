@@ -14,7 +14,7 @@ const About = () => {
           "VnF is precision agriculture platform that leverages data to pick the finest produce from the best partners and deliver it to your doorstep. We monitor every stage of the Farm-to-Fork cycle to derive synergies for our customers and partner ecosystem"
         }
       />
-      <Container className="text-center">
+      <Container className="text-center mb-18">
         <Row className="mt-75">
           <FeatureBox
             Caption={"CONSISTENLY PREMIUM QUALITY"}

@@ -12,19 +12,13 @@ import OurCrew from "../Layouts/OurCrew/OurCrew";
 import Card from "../Layouts/Card/Card";
 import OurTeam from "../Layouts/OurTeam/OurTeam";
 import Footer from "../Layouts/Footer/Footer";
-import { StickyContainer, Sticky } from "react-sticky";
+import { FaLightbulb, FaRegLightbulb } from "react-icons/fa";
+import Maps from "../Layouts/Maps/Maps";
 
 const AppController = () => {
   return (
     <div>
-      <div
-        style={{
-          position: "sticky",
-          top: 0,
-          zIndex: 5,
-          backgroundColor: "#fff",
-        }}
-      >
+      <div className="sticky-navbar">
         <AppNavbar />
       </div>
       <Slider
@@ -41,8 +35,8 @@ const AppController = () => {
       <OurCustomer />
       <OurCrew />
       <OurTeam />
+      <Maps />
       <Footer />
-      {/* <QuoteCarousel /> */}
     </div>
   );
 };

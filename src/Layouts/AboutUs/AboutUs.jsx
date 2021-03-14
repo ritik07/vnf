@@ -3,7 +3,7 @@ import Heading from "../Heading/Heading";
 
 const AboutUs = () => {
   return (
-    <div>
+    <div id="aboutus" className="mt-90">
       <Heading
         heading={"About US"}
         subText={

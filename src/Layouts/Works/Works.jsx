@@ -9,7 +9,7 @@ const Works = () => {
           <p class="mt-75 ml-50  primary-txt-color font-weight-bold f-50">
             How It Works
           </p>
-          <ul class="listStyle">
+          <ul class="ul-works">
             <li>
               <span class="count">1</span>Use app on your phone to place the
               order
@@ -19,8 +19,8 @@ const Works = () => {
               partners and experts to pick the finest
             </li>
             <li>
-              <span class="count-last">3</span>Get your order delivered first
-              thing in morning
+              <span class="count">3</span>Get your order delivered first thing
+              in morning
             </li>
           </ul>
         </Col>
